@@ -1,0 +1,73 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("52213804-3824-49f3-8ab1-f22a29deacdb",
+	'marriage',
+	22,
+	'marriage',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("ccae8d38-dcd3-44ed-9ae6-03f10be4a470",
+	"52213804-3824-49f3-8ab1-f22a29deacdb");
+INSERT INTO O_BATTR
+	VALUES ("ccae8d38-dcd3-44ed-9ae6-03f10be4a470",
+	"52213804-3824-49f3-8ab1-f22a29deacdb");
+INSERT INTO O_ATTR
+	VALUES ("ccae8d38-dcd3-44ed-9ae6-03f10be4a470",
+	"52213804-3824-49f3-8ab1-f22a29deacdb",
+	"00000000-0000-0000-0000-000000000000",
+	'vID',
+	'',
+	'',
+	'vID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("fa2b13aa-98bd-4af6-b772-4a337dbaaecc",
+	"52213804-3824-49f3-8ab1-f22a29deacdb");
+INSERT INTO O_BATTR
+	VALUES ("fa2b13aa-98bd-4af6-b772-4a337dbaaecc",
+	"52213804-3824-49f3-8ab1-f22a29deacdb");
+INSERT INTO O_ATTR
+	VALUES ("fa2b13aa-98bd-4af6-b772-4a337dbaaecc",
+	"52213804-3824-49f3-8ab1-f22a29deacdb",
+	"ccae8d38-dcd3-44ed-9ae6-03f10be4a470",
+	'year',
+	'',
+	'',
+	'year',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"52213804-3824-49f3-8ab1-f22a29deacdb");
+INSERT INTO O_OIDA
+	VALUES ("ccae8d38-dcd3-44ed-9ae6-03f10be4a470",
+	"52213804-3824-49f3-8ab1-f22a29deacdb",
+	0,
+	'vID');
+INSERT INTO O_ID
+	VALUES (1,
+	"52213804-3824-49f3-8ab1-f22a29deacdb");
+INSERT INTO O_ID
+	VALUES (2,
+	"52213804-3824-49f3-8ab1-f22a29deacdb");
+INSERT INTO PE_PE
+	VALUES ("52213804-3824-49f3-8ab1-f22a29deacdb",
+	1,
+	"4113a8be-b48c-43f2-bf04-86521a58956b",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("4113a8be-b48c-43f2-bf04-86521a58956b",
+	"00000000-0000-0000-0000-000000000000",
+	"2202248f-5a4d-46d3-a28f-67c0e562d99a",
+	'pei',
+	'',
+	0,
+	'../pei.xtuml');

@@ -1,0 +1,73 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("cdd3b775-9605-4978-be1c-a50d345a4324",
+	'sports_car',
+	11,
+	'sports_car',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("0cb387e1-1c46-4c73-aae2-c24e23dfaf4e",
+	"cdd3b775-9605-4978-be1c-a50d345a4324");
+INSERT INTO O_BATTR
+	VALUES ("0cb387e1-1c46-4c73-aae2-c24e23dfaf4e",
+	"cdd3b775-9605-4978-be1c-a50d345a4324");
+INSERT INTO O_ATTR
+	VALUES ("0cb387e1-1c46-4c73-aae2-c24e23dfaf4e",
+	"cdd3b775-9605-4978-be1c-a50d345a4324",
+	"00000000-0000-0000-0000-000000000000",
+	'kID',
+	'',
+	'',
+	'kID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("271ec51e-dc7e-4e73-816e-5e0cf5ecdef3",
+	"cdd3b775-9605-4978-be1c-a50d345a4324");
+INSERT INTO O_BATTR
+	VALUES ("271ec51e-dc7e-4e73-816e-5e0cf5ecdef3",
+	"cdd3b775-9605-4978-be1c-a50d345a4324");
+INSERT INTO O_ATTR
+	VALUES ("271ec51e-dc7e-4e73-816e-5e0cf5ecdef3",
+	"cdd3b775-9605-4978-be1c-a50d345a4324",
+	"0cb387e1-1c46-4c73-aae2-c24e23dfaf4e",
+	'specialcommon',
+	'',
+	'',
+	'specialcommon',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"cdd3b775-9605-4978-be1c-a50d345a4324");
+INSERT INTO O_OIDA
+	VALUES ("0cb387e1-1c46-4c73-aae2-c24e23dfaf4e",
+	"cdd3b775-9605-4978-be1c-a50d345a4324",
+	0,
+	'kID');
+INSERT INTO O_ID
+	VALUES (1,
+	"cdd3b775-9605-4978-be1c-a50d345a4324");
+INSERT INTO O_ID
+	VALUES (2,
+	"cdd3b775-9605-4978-be1c-a50d345a4324");
+INSERT INTO PE_PE
+	VALUES ("cdd3b775-9605-4978-be1c-a50d345a4324",
+	1,
+	"4113a8be-b48c-43f2-bf04-86521a58956b",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("4113a8be-b48c-43f2-bf04-86521a58956b",
+	"00000000-0000-0000-0000-000000000000",
+	"2202248f-5a4d-46d3-a28f-67c0e562d99a",
+	'pei',
+	'',
+	0,
+	'../pei.xtuml');

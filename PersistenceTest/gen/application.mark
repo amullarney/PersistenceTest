@@ -1,0 +1,3 @@
+*,RootPackage,*,PersistenceTest::Components
+Components::TestModel,InitFunction,Component,start_test
+Components::TestModel,InstanceLoading,Component,Sql
