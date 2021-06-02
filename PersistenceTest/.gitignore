@@ -3,3 +3,4 @@ target/*
 /gen/code_generation/
 *.oal_err
 *.pref
+/out.sql
